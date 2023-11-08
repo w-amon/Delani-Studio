@@ -54,3 +54,23 @@
 .about_us h6 {
     font-weight: 600;
 }
+
+.services {
+    background-image: url('..///images/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #000000;
+    height: 100vh;
+    font-weight: 600;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+.card img {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    opacity: 0.7;
+}   
