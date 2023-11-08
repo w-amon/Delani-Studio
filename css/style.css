@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 .h_img {
     background-image: url('..//images/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
@@ -7,8 +7,9 @@
     text-align: center;
     color: #ffffff;
     height: 100vh;
-    font-family: 'Edu TAS Beginner', cursive;
     font-weight: 600;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 #logo {
@@ -43,4 +44,13 @@
     60% {
         transform: translateY(-45px);
     }
+}
+
+.about_us {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+.about_us h6 {
+    font-weight: 600;
 }
